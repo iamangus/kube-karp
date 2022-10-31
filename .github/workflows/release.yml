@@ -10,5 +10,5 @@ jobs:
         #if: startsWith(github.ref, 'refs/tags/')
         env:
           GHR_COMPRESS: gz
-          GHR_PATH: helm/
+          GHR_PATH: helm
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
